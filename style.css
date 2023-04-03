@@ -1,0 +1,65 @@
+ @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0f0c27a1;
+    backdrop-filter: blur(5px);
+    padding: 13px 10%;
+    transition: 0.2s;
+  }
+.logo {
+    font-size: 1.61rem;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  
+  .blog-container {
+    margin-top: 3rem;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .blog-card {
+    min-height: 300px;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    background-color: #0f0c27;
+    border: 2px solid #02225a;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.592);
+  }
+  .blog-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #71acfa;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .blog-description {
+    padding: 10px 20px;
+  }
+  
+  .blog-img {
+    width: 70%;
+  }
+  
